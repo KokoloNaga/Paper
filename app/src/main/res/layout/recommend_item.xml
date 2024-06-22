@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:background="@drawable/item_search"
+    android:orientation="vertical"
+    android:elevation="5dp">
+    <TextView
+        android:id="@+id/tv_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tv_recommend_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
